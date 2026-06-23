@@ -4,6 +4,8 @@ import time
 PORT = "COM5"
 BAUD = 9600
 
+print("second save")
+
 # ---------------- CRC16（标准Modbus）----------------
 def modbus_crc16(data: bytes):
     crc = 0xFFFF
